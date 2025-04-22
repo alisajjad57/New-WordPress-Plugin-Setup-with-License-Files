@@ -1,0 +1,300 @@
+
+h1.wooninjas_addon_main_heading{
+    color: #23282d;
+font-weight: 600;
+font-size: 26px;
+margin: 40px 0 30px;
+}
+
+/* WOONINJAS ADDON-THEME NAVBAR STYLES BEGIN */
+.wooninjas-nav-wrapper {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+overflow-x: auto;
+background-color: #ffffff;
+padding: 0px 10px;
+width: 100%;
+margin: 30px 0px 30px -20px;
+border: none;
+box-shadow: 0px 0px 23px 0px #eee;
+box-sizing: content-box;
+} 
+.wooninjas-nav-wrapper a {
+font-size: 16px;
+color: #41454F;
+background: none;
+border: none;
+padding: 25px 20px;
+border-bottom: 1px solid transparent;
+margin: 0px;
+transition: .3s; 
+font-weight: 500;
+outline: 0 !important;
+box-shadow: none !important;
+}  
+.wooninjas-nav-wrapper a.nav-tab-active, 
+.wooninjas-nav-wrapper a.nav-tab-active:focus, 
+.wooninjas-nav-wrapper a.nav-tab-active:active {
+color: #007cba;
+background: #fbfbfb;
+border-bottom: 2px solid #007cba;
+}
+.wooninjas-nav-wrapper a i{vertical-align: middle; display: none;}
+.wooninjas-nav-wrapper a:hover{background: #fbfbfb;}
+
+.wn-gen-panel, 
+.wn-sttg-panel{
+    margin: 20px 20px 0 0;
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+}
+.wn-sttg-panel h2, .wn-gen-panel h2{
+    margin: 0px 0px 25px 0px;
+    color: #074b79;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 600;
+    position: relative;
+}
+.wn-gen-panel h4{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 2px 0 20px 0px;
+    width: 100%;
+}
+.wn-gen-panel .form-table th, 
+.wn-gen-panel .form-table td{
+    padding: 0;
+}
+.wn-gen-panel td{
+    vertical-align: top;
+}
+.wn-gen-panel th label{
+    color: #5f5f5f;
+    font-size: 13px;
+    font-weight: 700;
+}
+.wn-gen-panel td input{
+    padding: 5px 10px;
+    border: 1px solid #dbdbdb;
+    margin-top: 10px;
+}
+.wn-gen-panel .submit, 
+.wn-sttg-panel .submit{
+    margin: 0;
+    padding: 0;
+}
+.wn-gen-panel .submit input, 
+.wn-sttg-panel .submit input{
+    background: #074b79;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 5px;
+    padding: 7px 20px;
+    transition: 0.3s;
+    box-shadow: none !important;
+    margin: 30px 0 0;
+}
+.wn-gen-panel .submit input:hover, 
+.wn-sttg-panel .submit input:hover{
+    opacity: .9;
+}
+.wn-sttg-panel th, 
+.wn-sttg-panel td{
+    padding-top: 0;
+}
+.wn-sttg-panel td{
+    vertical-align: top;
+}
+.wn-sttg-panel th label{
+    font-size: 13px;
+    font-weight: 700;
+    color: #5f5f5f;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    width: 300px;
+}
+.wn-sttg-panel th label i{
+    margin: 0 15px 0 0;
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    color: #6c7781;
+    border: 2px solid #6c7781;
+    border-radius: 100%;
+    padding: 2px;
+    box-sizing: border-box !important;
+    cursor: pointer;
+    display: inline-grid;
+    place-content: center;
+    font-size: 11px;
+}
+.wn-sttg-panel th .description{
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0 0 5px;
+    color: #646970;
+    width: 90%;
+    display: none;
+}
+.wn-sttg-panel input[type="checkbox"] {
+    border: 2px solid #8c8f94;
+    border-radius: 15px;
+    background: #fff !important;
+    color: #50575e;
+    cursor: pointer;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    box-shadow: none !important;
+  }
+  .wn-sttg-panel input[type="checkbox"]:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 3px;
+    left: initial;
+    right: 3px !important;
+    background: #fff !important;
+    transition: 0.1s;
+    border-radius: 100%;
+    border: 2px solid #8c8f94;
+    display: inline-block;
+  }
+  .wn-sttg-panel input[type="checkbox"]:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 3px;
+    left: 3px !important;
+    background: #8c8f94 !important;
+    transition: 0.1s;
+    display: inline-block;
+  }
+  .wn-sttg-panel input[type="checkbox"]:checked {
+    background: #11a0d2 !important;
+    border: none;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .wn-sttg-panel input[type="checkbox"]:checked:after {
+    width: 8px;
+    height: 8px;
+    top: 4px;
+    left: initial;
+    right: 5px !important;
+    border-color: #fff;
+  }
+  .wn-sttg-panel input[type="checkbox"]:checked:before {
+    width: 3px;
+    height: 7px;
+    border-radius: 0px;
+    top: 9px;
+    left: 11px !important;
+    background: #fff !important;
+    transition: 0.1s;
+    display: inline-block;
+  }
+  .wn-sttg-panel td select{
+    max-width: 200px;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+
+  }
+.woo-ld-ceus-shortcode{
+    background: #fff;
+    border-radius: 5px;
+    padding-left: 0px;
+    box-shadow: 0 4px 8px 0 rgba(89, 89, 89, 0.058), 0 6px 20px 0 rgba(0, 0, 0, 0.125);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.woo-ld-ceus-shortcode code {
+    background: none;
+}
+.woo-ld-ceus-shortcode button {
+    background: #074b79;
+    padding: 5px;
+    color: #fff;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+    transition: .1s;
+}
+.woo-ld-ceus-shortcode button:active{
+    opacity: .9;
+}
+.woo-ld-ceus-shortcode button span{
+    font-size: 16px;
+    display: inline;
+}
+.woo-ld-ceus-shortcode button:hover{
+    opacity: .9;
+}
+.wrap.wn_wrap.wn-gen-panel p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+
+
+
+/* Responsive Starts */
+
+  @media(max-width: 782px){
+    h1.wooninjas_addon_main_heading{
+        font-size: 24px;
+    }
+    .wn-gen-panel, .wn-sttg-panel{
+        margin-right: 10px;
+        padding: 30px 20px;
+    }
+    .wn-gen-panel h2{
+        margin: 0px 0px 15px 0px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .wn-sttg-panel th, .wn-sttg-panel td{
+        display: block;
+        width: 100%;
+    } 
+    .wn-sttg-panel tr th{
+        padding-bottom: 5px;
+        width: 100%;
+        padding-top: 0;
+    }
+    .wn-sttg-panel tr td{
+        padding-bottom: 30px;
+    }
+    .wn-sttg-panel tr:last-child th, 
+    .wn-sttg-panel tr:last-child td{
+        padding-bottom: 0;
+    }
+    .wn-sttg-panel th label{
+        width: 100%;
+    }
+    .wn-sttg-panel th label i{
+        margin-right: 0;
+    }
+    .wn-gen-panel .submit input, .wn-sttg-panel .submit input{
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+  }
